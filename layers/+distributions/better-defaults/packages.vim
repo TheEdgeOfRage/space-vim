@@ -35,7 +35,7 @@ if has('patch-8.0.1238')
   MP 'haya14busa/is.vim'
   MP 'osyo-manga/vim-anzu', { 'on': ['<Plug>(anzu-n-with-echo)', '<Plug>(anzu-N-with-echo)'] }
 else
-  MP 'google/vim-searchindex'
+  "MP 'google/vim-searchindex'
   if !g:spacevim_nvim
     MP 'haya14busa/incsearch.vim',       { 'on': [
                 \ '<Plug>(incsearch-forward)',
